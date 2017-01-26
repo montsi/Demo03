@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teht01", "Teht01\Teht01.csproj", "{E5FC461D-C028-4DCF-AE07-B153A349716C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarApplication", "CarApplication\CarApplication.csproj", "{D7F19DAA-445F-4DAE-A9F6-DE7CFE8280FA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeaterApplication", "HeaterApplication\HeaterApplication.csproj", "{CB44D375-D9FB-40F5-8AC2-E89D243D526A}"
@@ -17,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E5FC461D-C028-4DCF-AE07-B153A349716C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E5FC461D-C028-4DCF-AE07-B153A349716C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E5FC461D-C028-4DCF-AE07-B153A349716C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E5FC461D-C028-4DCF-AE07-B153A349716C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D7F19DAA-445F-4DAE-A9F6-DE7CFE8280FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D7F19DAA-445F-4DAE-A9F6-DE7CFE8280FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7F19DAA-445F-4DAE-A9F6-DE7CFE8280FA}.Release|Any CPU.ActiveCfg = Release|Any CPU

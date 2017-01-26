@@ -14,7 +14,7 @@ namespace WasherApplication
         public int ProgramLenght { get; set; }
         public void WasherStart()
         {
-            Console.WriteLine("hummm");
+            Console.WriteLine("*hummm*");
         }
     }
 }

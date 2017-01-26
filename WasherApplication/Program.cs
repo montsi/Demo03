@@ -12,9 +12,9 @@ namespace WasherApplication
         {
             Washer washer = new Washer();
             washer.IsOn = true;
-            washer.Program = "valkopyykki";
-            washer.WaterTemp = 90;
-            washer.ProgramLenght = 120;
+            washer.Program = "pikapesu";
+            washer.WaterTemp = 40;
+            washer.ProgramLenght = 30;
             washer.WasherStart();
             Console.WriteLine("Program is:" + washer.Program);
             Console.WriteLine("Water temperature is:" + washer.WaterTemp);
