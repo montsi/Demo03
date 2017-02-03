@@ -10,15 +10,18 @@ namespace WasherApplication
     {
         static void Main(string[] args)
         {
-            Washer washer = new Washer();
+            // luodaan washer-olio eli Washer luokan instanssi ja annetaan arvoja
+            Washer washer = new Washer(); 
             washer.IsOn = true;
-            washer.Program = "pikapesu";
+            washer.Program = "Quickwash";
             washer.WaterTemp = 40;
             washer.ProgramLenght = 30;
-            washer.WasherStart();
-            Console.WriteLine("Program is:" + washer.Program);
-            Console.WriteLine("Water temperature is:" + washer.WaterTemp);
-            Console.WriteLine("Program lenght is:" + washer.ProgramLenght);
+            washer.WasherStart();   // koneen käynnistys
+            Console.WriteLine("Program is: " + washer.Program);
+            Console.WriteLine("Water temperature is: " + washer.WaterTemp + " C");
+            Console.WriteLine("Program lenght is: " + washer.ProgramLenght + " min");
+            Console.WriteLine("...Waiting for " + washer.ProgramLenght + " minutes...");
+            washer.WasherDone();    // ohjelma valmis
 
             Console.ReadLine();
         }

@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeaterApplication", "Heater
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WasherApplication", "WasherApplication\WasherApplication.csproj", "{9792116D-2525-430D-BABF-57C14CF94C69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TVApplication", "TVApplication\TVApplication.csproj", "{D820ABF5-F6F3-4824-A3EE-BA692D994F88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleApplication", "VehicleApplication\VehicleApplication.csproj", "{78666A89-3DFF-492F-B15B-BF5F345B1888}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{9792116D-2525-430D-BABF-57C14CF94C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9792116D-2525-430D-BABF-57C14CF94C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9792116D-2525-430D-BABF-57C14CF94C69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D820ABF5-F6F3-4824-A3EE-BA692D994F88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D820ABF5-F6F3-4824-A3EE-BA692D994F88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D820ABF5-F6F3-4824-A3EE-BA692D994F88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D820ABF5-F6F3-4824-A3EE-BA692D994F88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78666A89-3DFF-492F-B15B-BF5F345B1888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78666A89-3DFF-492F-B15B-BF5F345B1888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78666A89-3DFF-492F-B15B-BF5F345B1888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78666A89-3DFF-492F-B15B-BF5F345B1888}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
